@@ -59,7 +59,7 @@
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "birth --help"
+            argument = "--help"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
