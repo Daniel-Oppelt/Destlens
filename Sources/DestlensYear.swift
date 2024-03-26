@@ -31,32 +31,6 @@ class DestlensYear { //nomeação da classe
         yearVision(numeroAno)
     }
 
-//    func calculoLoop(house: String) -> Int {
-//        var aux: Int = 0
-//        var home: Int = 0
-//        while aux < house.count {
-//            let characterIndex = house.index(house.startIndex, offsetBy: aux)
-//            /// Descobre a localizacao do caractere fornecido pelo 'aux'
-//            let charactere = house[characterIndex]
-//            ///  o caractere localizado no characterIndex
-//            let valor = Int(String(charactere))
-//            /// Transforma o 'caractere' em um tipo String, e logo em seguida em (Optional<Int> / Int?)
-//            /// '3'-> "3" -> Optional<3>
-//
-//            guard let unwrapped = valor else { // Optional<3> -> 3
-//                print("Nao é um numero inteiro!")
-//                break
-//            }
-//            home += unwrapped
-//            /// Soma 'home' com o valor do unwrapped
-//            /// home = home + unwrapped
-//            aux+=1
-//        }
-//        return home
-//        ///retorna o valor de 'home'
-//
-//    }
-
     ///  func + 'nome da funcao(argumentos da funcao: tipo )' -> 'tipo do retorno' {}
     func calculate(houseNum: Int) -> Int {
         var soma = 0 
